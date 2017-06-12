@@ -1,0 +1,22 @@
+.table > tbody > tr > td.danger{
+    background-color: #ff1744;    
+    color: #ffffff;
+    text-align: center;
+}
+.table > tbody > tr > td.success{
+    background-color: #00e676;
+    color: #ffffff;
+    text-align: center;
+}
+.btn-info {
+    color: #000000;
+    background-color: #ffeb3b;
+    border-color: #46b8da;
+}
+tr.success{
+	background-color: #00e676;		
+}
+tr.danger{
+	background-color: #ff1744;    
+    color: #ffffff;    
+}

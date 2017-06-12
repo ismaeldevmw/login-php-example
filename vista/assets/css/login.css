@@ -1,0 +1,46 @@
+body{
+    background-color: #373737;
+}
+
+#pre-load-web {width:100%;position:absolute;background:#e8eaf6;left:0px;top:0px;z-index:100000}
+/*aqui centramos la imagen si coloco margin left -30 es por que la imagen mide 60 */
+#pre-load-web #imagen-load{left:50%;margin-left:-30px;position:absolute}
+
+.errores{
+    display: none;
+}
+.nav {    
+    /*box-shadow: 0 0 8px rgba(0,0,0,0.12),0 8px 8px rgba(0,0,0,0.24);*/
+   
+    height: 48px;
+}
+
+.btn-primary {
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    background-color: #3f51b5;
+    border-color: transparent;
+    border-radius: 60px;                
+}
+
+.btn-primary:hover{
+    background-color: #303f9f;
+}  
+
+.form-login{
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+}
+
+.panel-login{
+    background-color: #111111; 
+    box-shadow: 1px 1px 4px;
+}
+
+.color-light{
+    color: #bdbdbd;
+}
+.color-accent{
+    color: #ffc107;
+}
